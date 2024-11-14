@@ -4,7 +4,7 @@ import Sidebar from '../components/Sidebar'
 import SidebarCalendar from "../components/SidebarCalendar";
 import EmailInput from "../components/EmailInput";
 
-const crtmeet = () => {
+const Crtmeet = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [agenda, setAgenda] = useState(["안건 1: 제주항공 콜라보 마케팅 전략", "안건 2"]);
 
@@ -81,4 +81,4 @@ const crtmeet = () => {
   );
 }
 
-export default crtmeet
+export default Crtmeet
